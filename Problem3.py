@@ -14,12 +14,8 @@ t2=(j2*3600) + (m2*60) + (d2)
 totaltime = t2-t1
 
 lamaj=(totaltime//3600)
-lamam=(totaltime%3600)//60
-lamad=(totaltime%3600)%60
+sisa=(totaltime%3600)
+lamam=(sisa//60)
+lamad=(sisa-(60*lamam))
 
-if totaltime >3600:
-    print(f"Tuan Riz berlari selama {lamaj} jam {lamam} menit {lamad}")
-elif 60 < totaltime < 3600:
-    print(f"Tuan Riz berlari selama {lamam} menit {lamad}")
-elif totaltime < 60:
-    print (f"Tuan Riz berlari Selama {lamad} detik")
+print(f"Tuan Riz berlari selama {lamaj} jam {lamam} menit {lamad} detik")

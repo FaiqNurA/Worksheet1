@@ -1,8 +1,8 @@
-A1=int(input("Masukkan harga daO1r barang A: ")) 
+A1=int(input("Masukkan harga dasar barang A: ")) 
 A2=int(input("Masukkan harga jual barang A: "))
-B1=int(input("Masukkan harga daO1r barang B: "))
+B1=int(input("Masukkan harga dasar barang B: "))
 B2=int(input("Masukkan harga jual barang B: "))
-C1=int(input("Masukkan harga daO1r barang C: "))
+C1=int(input("Masukkan harga dasar barang C: "))
 C2=int(input("Masukkan harga jual barang C: "))
 
 O1=A2-A1
